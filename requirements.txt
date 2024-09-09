@@ -2,3 +2,5 @@ pynput
 mouse
 keyboard
 opencv-python
+pywin32
+Pillow
