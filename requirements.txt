@@ -1,0 +1,4 @@
+pynput
+mouse
+keyboard
+opencv-python
