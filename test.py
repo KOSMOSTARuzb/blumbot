@@ -126,7 +126,7 @@ def pixelate(image, block_size=10) -> numpy.ndarray:
 
     return pixelated_image
 def is_green(red, green, blue) -> bool:
-    return ((blue < 0.8*green) and (red < 0.64 * green)) and (red+green+blue)>35
+    return ((blue < 0.8*green) and (red < 0.64 * green)) and (red+green+blue)>40
 def process_pixels(image:numpy.ndarray):
     j={}
     for l in range(len(image)-1, -1, -1):
